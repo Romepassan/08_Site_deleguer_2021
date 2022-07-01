@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Kdam+Thmor&display=swap');
+
+body{
+    font-family: 'Itim', cursive;
+    font-family: 'Kdam Thmor', cursive;
+    margin: 0p;
+    padding: 0px;
+    text-align: center;
+    background:linear-gradient(to bottom right, gray, black);
+}
+
+/* barra de navigation */
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    position:relative;
+    top: 0;
+    background:linear-gradient(to bottom right, gray, white);
+}
+
+nav h1{
+    font-size: 20px;
+}
+
+nav .onglets{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav .onglets p{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    background-color: #f2f2f2;
+}
+
+/* fin de la barre des taches */
+ 
+a
+    { 
+     text-decoration:none; 
+     color: black;
+    } 
+
+    article {
+        min-height: 100%;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+    }
+    
+    footer {
+        display: flex;
+        justify-content: center;
+        padding: 5px;
+        background:linear-gradient(to bottom right, gray, white);
+        color: black;
+    }
+
+
+.campus {
+    width: 500px;
+    height: 
+}
+
+.gauche{
+    border: groove 5px black;
+    padding: 50px;
+    border-radius: 1100px 10px 10px 10px;
+    background:linear-gradient(to bottom right, gray, white);
+    color: white;
+    max-width: 500px;
+    position: relative;
+    margin: 30px;
+    display: inline-block;
+}
+
+.centre{
+    border: groove 5px black;
+    padding: 50px;
+    border-radius: 0px 10px 10px 10px;
+    background:linear-gradient(to bottom right, gray, white);
+    color: white;
+    max-width: 500px;
+    position: relative;
+    margin: 30px;
+    display: inline-block
+}
+
+.droite{
+    border: groove 5px black;
+    padding: 50px;
+    border-radius: 0px 1100px 10px 10px;
+    background:linear-gradient(to bottom right, gray, white);
+    color: white;
+    max-width: 500px;
+    position: relative;
+    margin: 30px;
+    display: inline-block
+}
+
+.comp{
+    text-align: left
+}
+
+.outil{
+    border: groove 5px black;
+}
+
+
+article{
+    border: groove 5px black;
+    padding: 50px;
+    border-radius: 10px 10px 10px 10px;
+    background:linear-gradient(to bottom right, gray, white);
+    color: white;
+    position: relative;
+    margin-top : auto;
+    margin-bottom : auto;
+    margin-right : 250px;
+    margin-left : 400px;
+    display: inline-block;
+    width: 33%;
+    margin: -1px;
+}
+section{
+    display: inline-block; 
+    text-align: center;
+}
+
+
+button{
+    padding: 20px;
+    height: 40px;
+    font-size: 1em;
+    border-radius: 2px;
+    cursor: pointer;
+}
